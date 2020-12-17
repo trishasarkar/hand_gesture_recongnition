@@ -31,6 +31,11 @@ Both the datasets are split into training and testing data and fed to the 2 mode
 * The accuracy of the classifier for without edge detected images was 80% whereas for edge detected images it was 60%. 
 * For the given data sets, increasing the value of k or increasing the test size decreased the accuracy of the classifier as the dataset under consideration was quite small compared to real-world systems. Reducing the value of k or increasing the training dataset size could lead to overfitting of the model.
 
+## Contributors
+
+* [Trisha Sarkar](https://github.com/trishasarkar)
+* [Mohit Parekh](https://github.com/mohitparekh7)
+* [Samiksha Shetty](https://github.com/samiksha-18)
 
 ## Points to be Noted
 
