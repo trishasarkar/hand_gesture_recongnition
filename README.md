@@ -1,6 +1,6 @@
 # Hand Gesture Recognition 
 
-Hand Gesture Recognition systems involve training a machine to read our gestures using Image Processing and Machine Learning Algortihms. It is a common application is various sectors from Defence to Sensor-Based technologies. In this project we have created a model to serve this application at a basic level and checking the impact of Sobel Edge detection on the prediction results.
+Hand Gesture Recognition systems involve training a machine to read our gestures using Image Processing and Machine Learning Algorithms. It is a common application in various sectors from Defence to Sensor-Based technologies. In this project we have created a model to serve this application at a basic level and checking the impact of Sobel Edge detection on the prediction results.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ Algorithm used: K Nearest Neighbor (KNN)
 * Pre-process: Store the image labels by stripping off parts that are not needed from image name.
 * Edge Detection: Sobel operator used to create another pool of 50 edge detection images. So there are two pools of edge detected and non edge detected images.
 * Logic: 
-Each of the 100 images are converted to a feature vectors with  raw pixel intensities by flattening them into a 1D array.
+Each of the 100 images are converted to feature vectors with  raw pixel intensities by flattening them into a 1D array.
 Both the datasets are split into training and testing data and fed to the 2 models created.
 * Evaluation: Accuracy of both the models are calculated. A heat map is used to visualise the confusion matrix.
 
@@ -37,5 +37,3 @@ Both the datasets are split into training and testing data and fed to the 2 mode
 * The accuracy of the model is not very high due to the following reasons -
   1. Use of raw pixel values for feature extraction - they could be influenced by intensity values.
   2. Small training data size
-
-
