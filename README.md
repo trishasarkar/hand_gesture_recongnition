@@ -2,6 +2,15 @@
 
 Hand Gesture Recognition systems involve training a machine to read our gestures using Image Processing and Machine Learning Algorithms. It is a common application in various sectors from Defence to Sensor-Based technologies. In this project we have created a model to serve this application at a basic level and checking the impact of Sobel Edge detection on the prediction results.
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+  - [Problem Statement](#problem-statement)
+  - [Procedure](#procedure)
+  - [Inference](#inference-&-use-cases)
+- [Contributors](#contributors)
+- [Points to be Noted](#points-to-be-noted)
+ 
 ## Prerequisites
 
 Dataset Used: Extract of 50 images (of any 5 gestures) [*Hand Gesture Recognition Database*](https://www.kaggle.com/benenharrington/hand-gesture-recognition-database-with-cnn)
